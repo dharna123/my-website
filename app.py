@@ -80,6 +80,10 @@ def home():
 def payment():
     return "Payment feature"
 
+@app.route("/demo")
+def demo():
+    return "welcome"
+
 '''@app.route("/make_admin/<int:id>") 
 def make_admin(id):
     if session.get("role")!="admin":
