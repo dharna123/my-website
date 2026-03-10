@@ -76,6 +76,10 @@ def admin():
 def home():
     return "Hello from master and feature branch"
 
+@app.route("/payment-feature")
+def payment():
+    return "Payment feature"
+
 '''@app.route("/make_admin/<int:id>") 
 def make_admin(id):
     if session.get("role")!="admin":
