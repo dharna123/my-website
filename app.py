@@ -74,7 +74,7 @@ def admin():
 
 @app.route("/")
 def home():
-    return "Hello"
+    return "Hello from master branch"
 
 '''@app.route("/make_admin/<int:id>") 
 def make_admin(id):
