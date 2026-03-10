@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <form method="post">
+            {{ form.hidden_tag() }}
+     {{form.name.label}}
+     {{form.name()}}
+     {{form.email.label}}
+     {{form.email()}}
+
+     {{form.password.label}}
+     {{form.password()}}
+     <input type="submit" value="Register">
+     </form>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+{% for user in users %}
+{{user.name}} {{user.role}}
+<a href="/make_admin/{{user.id}}">Make admin</a>
+{% endfor %}
